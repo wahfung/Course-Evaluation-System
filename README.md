@@ -1,4 +1,4 @@
-# Course Evaluation System (2904)
+# Course Evaluation System
 
 ## 技术栈
 
