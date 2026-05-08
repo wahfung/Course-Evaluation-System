@@ -1,0 +1,63 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Python virtual environments and packaging
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Django local files
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+*.log
+
+# Node/front-end dependencies and caches
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.cache/
+.vite/
+frontend/dist/
+
+# Local Docker/runtime artifacts
+.docker/
+docker-data/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
